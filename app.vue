@@ -8,6 +8,16 @@
     <FirstSection />
     <!-- About section -->
     <AboutSection />
+    <!-- Subscribe section -->
+    <Subscribe />
+    <!-- Package Section -->
+    <PackageSection />
+    <!-- News Section -->
+    <NewsSection />
+    <!-- Contact Section -->
+    <ContactSection />
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 <script setup></script>

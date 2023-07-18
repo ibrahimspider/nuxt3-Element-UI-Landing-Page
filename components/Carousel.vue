@@ -11,7 +11,9 @@
                 This is just a simple text made for this unique and awesome
                 template, you can replace it with any text.
               </p>
-              <el-button>Go Now</el-button>
+              <div>
+                <el-button>Go Now</el-button>
+              </div>
             </div>
           </div>
         </div>
@@ -29,9 +31,6 @@
 </template>
 
 <style scoped>
-.el-button {
-  height: 38;
-}
 .shape {
   margin-top: -19px;
   position: relative;

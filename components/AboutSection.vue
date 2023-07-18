@@ -60,7 +60,9 @@
                 </p>
               </div>
             </div>
-            <a href="#" class="btn">Learn More</a>
+            <div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
           </div>
         </el-col>
         <el-col :xs="24" :sm="24" :md="10" :lg="10" :xl="10">
@@ -108,8 +110,8 @@ section .btn {
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
   border-radius: 0;
-  background: linear-gradient(45deg, #5329c4, #aa65e8) !important;
-  color: #fff !important;
+  background: linear-gradient(45deg, #5329c4, #aa65e8);
+  color: #fff;
   box-shadow: 0 3px 5px 0 rgba(83, 41, 196, 0.1);
   border-image: linear-gradient(to right, #5329c4, #aa65e8) 1;
 }
@@ -117,7 +119,6 @@ section .btn {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: start;
   flex-direction: column;
 }
 .img {
@@ -129,7 +130,6 @@ section .btn {
 .flex-box {
   display: flex;
   align-items: center;
-  justify-content: start;
 }
 .icon-box {
   padding-right: 10px;
